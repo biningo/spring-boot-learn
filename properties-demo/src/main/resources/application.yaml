@@ -1,0 +1,29 @@
+server:
+  port: 9000
+
+mysql:
+  username: lyer-mysql
+  password: 55555
+redis:
+  username: lyer-redis
+  password: 55555
+  db: 0
+es:
+  username: lyer-es
+  password: 55555
+  index: log-es
+
+my:
+  name: icic
+  port: 9999
+
+article:
+  title: JAVA
+  author: lyer
+book:
+  title: Python
+  price: 10.5
+
+spring:
+  profiles:
+    active: test
